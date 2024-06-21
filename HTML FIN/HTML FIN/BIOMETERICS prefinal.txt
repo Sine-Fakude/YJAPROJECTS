@@ -1,0 +1,269 @@
+<!BIOMETERICS PAGE>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YJA Projects - E-Commerce Website</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+    }
+
+    .navbar {
+      background: linear-gradient(to right, red, orange, yellow);
+      padding: 20px;
+      color: white;
+    }
+
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .brand-logo {
+      width: 100px;
+    }
+
+    .nav-items {
+      display: flex;
+      align-items: center;
+    }
+
+    .search-box {
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      margin-right: 10px;
+    }
+
+    .search-btn {
+      padding: 10px 15px;
+      background-color: orange;
+      color: BLACK;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+button {
+  align-items: center;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-decoration: none;
+  text-transform: uppercase;
+  outline: 0;
+  border: 0;
+  padding: 1rem;
+}
+
+button:before {
+  background-color: orange;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  margin-right: 10px;
+  transition: all .42s cubic-bezier(.25,.8,.25,1);
+  width: 0;
+}
+
+button:hover:before {
+  background-color: #fff;
+  width: 3rem;
+}
+
+    .nav-items img {
+      width: 30px;
+      margin-left: 10px;
+    }
+
+    .card {
+      width: 290px;
+      height: 354px;
+      padding: .9em;
+      background: #f5f5f5;
+      position: relative;
+      overflow: visible;
+      box-shadow: 0 0px 0px rgba(0,0,0,0), 0 0px 0px rgba(0,0,0,0);
+    }
+
+    .card-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .card-img {
+      background-color: #ffcab6;
+      height: 50%;
+      width: 100%;
+      border-radius: .5rem;
+      transition: .3s ease;
+    }
+
+    .card-info {
+      padding-top: 10%;
+    }
+
+    svg {
+      width: 25px;
+      height: 25px;
+    }
+
+    .card-footer {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 10px;
+      border-top: 1px solid #ddd;
+    }
+
+    .text-title {
+      font-weight: 900;
+      font-size: 1.1em;
+      line-height: 1.1;
+    }
+
+    .text-body {
+      font-size: .8em;
+      padding-bottom: 10px;
+    }
+
+    .card-button {
+      border: 1px solid #252525;
+      display: flex;
+      padding: .3em;
+      cursor: pointer;
+      border-radius: 50px;
+      transition: .3s ease-in-out;
+    }
+
+    .card-img:hover {
+      transform: translateY(15%);
+      box-shadow: rgba(126, 96, 93, 0.25) 0px 13px 47px -5px, rgba(110, 71, 71, 0.3) 0px 8px 16px -8px;
+    }
+
+    .card-button:hover {
+      border: 1px solid #ffcaa6;
+      background-color: #ffcaa6;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav">
+      <img src="https://yjaprojects.co.za/_WebmoduleData/Images/used/_CompanyLogo.png?t=10/9/2023%202:12:15%20PM" class="brand-logo" alt="YJA Projects Logo">
+     
+             <div>
+       <button id="backButton">Back</button>
+
+  <script src="script.js"></script>  </body>
+            </div>
+
+      <div class="nav-items">
+        <div class="search">
+          <input type="text" class="search-box" placeholder="Search brand, product">
+          <button class="search-btn">Search</button>
+        </div>
+
+      <svg class="svg-icon" viewBox="0 0 20 20">
+          <path d="M17.72,5.011H8.026c-0.271,0-0.49,0.219-0.49,0.489c0,0.271,0.219,0.489,0.49,0.489h8.962l-1.979,4.773H6.763L4.935,5.343C4.926,5.316,4.897,5.309,4.884,5.286c-0.011-0.024,0-0.051-0.017-0.074C4.833,5.166,4.025,4.081,2.33,3.908C2.068,3.883,1.822,4.075,1.795,4.344C1.767,4.612,1.962,4.853,2.231,4.88c1.143,0.118,1.703,0.738,1.808,0.866l1.91,5.661c0.066,0.199,0.252,0.333,0.463,0.333h8.924c0.116,0,0.22-0.053,0.308-0.128c0.027-0.023,0.042-0.048,0.063-0.076c0.026-0.034,0.063-0.058,0.08-0.099l2.384-5.75c0.062-0.151,0.046-0.323-0.045-0.458C18.036,5.092,17.883,5.011,17.72,5.011z"></path>
+          <path d="M8.251,12.386c-1.023,0-1.856,0.834-1.856,1.856s0.833,1.853,1.856,1.853c1.021,0,1.853-0.83,1.853-1.853S9.273,12.386,8.251,12.386z M8.251,15.116c-0.484,0-0.877-0.393-0.877-0.874c0-0.484,0.394-0.878,0.877-0.878c0.482,0,0.875,0.394,0.875,0.878C9.126,14.724,8.733,15.116,8.251,15.116z"></path>
+          <path d="M13.972,12.386c-1.022,0-1.855,0.834-1.855,1.856s0.833,1.853,1.855,1.853s1.854-0.83,1.854-1.853S14.994,12.386,13.972,12.386z M13.972,15.116c-0.484,0-0.878-0.393-0.878-0.874c0-0.484,0.394-0.878,0.878-0.878c0.482,0,0.875,0.394,0.875,0.878C14.847,14.724,14.454,15.116,13.972,15.116z"></path>
+         </svg>
+         <div>
+        <a href="#"><img src="img/cart.png" alt="Cart"></a>
+      </div>
+    </div>
+  </nav>
+
+ <div class="card">
+    <div class="card-img">
+      <img src="https://lh3.googleusercontent.com/pw/AP1GczOtWfeXehTYqfOdvovDuWeHCKWMo5aOGmO5WltYB2BK5wb1jPSlKZxtzXOt3tvKqJ427GPRhcd7y9Rokh-K2xOetl0ifDA1DIqUZCXrr8lm-AAIIv_vxsSc5yn0pi3U_eK1iVCXzogKztaDq8s85IotJQ=w679-h679-s-no-gm?authuser=0" alt="Image description">
+    </div>
+    <div class="card-info">
+      <p class="text-title">ZKTeco MultibBio Fingerprint</p>
+      <p class="text-body">Facial cap:800 , Card Cap:5000, Fingerprint Cap:3000. Has the BioTime 8 Software.</p>
+    </div>
+    <div class="card-footer">
+      <span class="text-title">R6413.49</span>
+      <div class="card-button" onclick="addToCart()">
+        <svg class="svg-icon" viewBox="0 0 20 20">
+          <path d="M17.72,5.011H8.026c-0.271,0-0.49,0.219-0.49,0.489c0,0.271,0.219,0.489,0.49,0.489h8.962l-1.979,4.773H6.763L4.935,5.343C4.926,5.316,4.897,5.309,4.884,5.286c-0.011-0.024,0-0.051-0.017-0.074C4.833,5.166,4.025,4.081,2.33,3.908C2.068,3.883,1.822,4.075,1.795,4.344C1.767,4.612,1.962,4.853,2.231,4.88c1.143,0.118,1.703,0.738,1.808,0.866l1.91,5.661c0.066,0.199,0.252,0.333,0.463,0.333h8.924c0.116,0,0.22-0.053,0.308-0.128c0.027-0.023,0.042-0.048,0.063-0.076c0.026-0.034,0.063-0.058,0.08-0.099l2.384-5.75c0.062-0.151,0.046-0.323-0.045-0.458C18.036,5.092,17.883,5.011,17.72,5.011z"></path>
+          <path d="M8.251,12.386c-1.023,0-1.856,0.834-1.856,1.856s0.833,1.853,1.856,1.853c1.021,0,1.853-0.83,1.853-1.853S9.273,12.386,8.251,12.386z M8.251,15.116c-0.484,0-0.877-0.393-0.877-0.874c0-0.484,0.394-0.878,0.877-0.878c0.482,0,0.875,0.394,0.875,0.878C9.126,14.724,8.733,15.116,8.251,15.116z"></path>
+          <path d="M13.972,12.386c-1.022,0-1.855,0.834-1.855,1.856s0.833,1.853,1.855,1.853s1.854-0.83,1.854-1.853S14.994,12.386,13.972,12.386z M13.972,15.116c-0.484,0-0.878-0.393-0.878-0.874c0-0.484,0.394-0.878,0.878-0.878c0.482,0,0.875,0.394,0.875,0.878C14.847,14.724,14.454,15.116,13.972,15.116z"></path>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-img">
+      <img src="https://lh3.googleusercontent.com/pw/AP1GczOAGKyjzxewRG_HRJFlwzYNXA0iGhgJuYWocjeZuplNdqF8ieXoKD1pQM-1ORnQcOcYZR7TglDHT5t0-u5pr4gIYWct3w5vpnfQMm1JhMolxddA5RGls0YwivNZ_1PJcTeQEHr7Cxd2neBt7P8xRb9dsw=w905-h679-s-no-gm?authuser=0" alt="Image description">
+    </div>
+    <div class="card-info">
+      <p class="text-title">ZTKeco Ultima</p>
+      <p class="text-body">3D Structured Light Facial Recognition.Fingerprint Recognition. Finger Vein Recognition.</p>
+    </div>
+    <div class="card-footer">
+      <span class="text-title">R9149.99</span>
+      <div class="card-button" onclick="addToCart()">
+        <svg class="svg-icon" viewBox="0 0 20 20">
+          <path d="M17.72,5.011H8.026c-0.271,0-0.49,0.219-0.49,0.489c0,0.271,0.219,0.489,0.49,0.489h8.962l-1.979,4.773H6.763L4.935,5.343C4.926,5.316,4.897,5.309,4.884,5.286c-0.011-0.024,0-0.051-0.017-0.074C4.833,5.166,4.025,4.081,2.33,3.908C2.068,3.883,1.822,4.075,1.795,4.344C1.767,4.612,1.962,4.853,2.231,4.88c1.143,0.118,1.703,0.738,1.808,0.866l1.91,5.661c0.066,0.199,0.252,0.333,0.463,0.333h8.924c0.116,0,0.22-0.053,0.308-0.128c0.027-0.023,0.042-0.048,0.063-0.076c0.026-0.034,0.063-0.058,0.08-0.099l2.384-5.75c0.062-0.151,0.046-0.323-0.045-0.458C18.036,5.092,17.883,5.011,17.72,5.011z"></path>
+          <path d="M8.251,12.386c-1.023,0-1.856,0.834-1.856,1.856s0.833,1.853,1.856,1.853c1.021,0,1.853-0.83,1.853-1.853S9.273,12.386,8.251,12.386z M8.251,15.116c-0.484,0-0.877-0.393-0.877-0.874c0-0.484,0.394-0.878,0.877-0.878c0.482,0,0.875,0.394,0.875,0.878C9.126,14.724,8.733,15.116,8.251,15.116z"></path>
+          <path d="M13.972,12.386c-1.022,0-1.855,0.834-1.855,1.856s0.833,1.853,1.855,1.853s1.854-0.83,1.854-1.853S14.994,12.386,13.972,12.386z M13.972,15.116c-0.484,0-0.878-0.393-0.878-0.874c0-0.484,0.394-0.878,0.878-0.878c0.482,0,0.875,0.394,0.875,0.878C14.847,14.724,14.454,15.116,13.972,15.116z"></path>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function addToCart() {
+      alert("Item added to cart!");
+    }
+
+   // Product class
+    class Product {
+      constructor(name, description, price, imageUrl) {
+        this.name = name;
+        this.description = description;
+        this.price = price;
+        this.imageUrl = imageUrl;
+      }
+
+      displayProduct() {
+        // Logic to display the product on the UI
+      }
+    }
+
+    // Example product instances
+    const products = [
+      new Product('Canon TM300', 'This solution has everything needed to copy, scan, archive and share maps, drawings and posters.', 66499.99, 'https://example.com/image1.jpg'),
+      new Product('RISO FW5230 INKJET', 'Print 120 pages per minute in full color, duplex scanning which ensures speedy workflows.', 89199.99, 'https://example.com/image2.jpg'),
+      new Product('HP Colour LaserJet', 'Print 2-sided prints, mobile/wireless/ethernet. Fast color printing at up to 26 pages per minute.', 13999.99, 'https://example.com/image3.jpg'),
+      new Product('CANON Mono Laser Printer', 'Print at speeds of up to 28 pages per minute. Paper capacity allows for 250 sheets.', 17299.99, 'https://example.com/image4.jpg')
+    ];
+
+    // Function to add product to cart
+    function addToCart(productName, productPrice) {
+      // Logic to add the product to the cart
+      alert(`Added ${productName} to the cart.`);
+    }
+
+    // Function to search products
+    document.querySelector('.search-btn').addEventListener('click', () => {
+      const query = document.querySelector('.search-box').value;
+      // Logic to search and display products based on the query
+    });
+
+  </script>
+</body>
+</html>

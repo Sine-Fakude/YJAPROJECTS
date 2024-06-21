@@ -1,0 +1,9 @@
+Engineer requirements and specifications for a  South African TVET website that offers peer tutoring. the webiste should have the rquirements that follow:
+
+-login page using student number. if valid grant access if not dont allow.
+-abiltiy to download recording at a later stage.
+-must have a call button for tutors, IT support, Couselling.
+-make sure it keeps its integrity when viewed on mobile devices.
+now make the rest.
+
+
